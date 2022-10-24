@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: aliceblue;
+
+}
+body{
+    background-color: #2FF544;
+}
+.content{
+    background-image: url('imagenes/fondo.jpg');
+    background-size: cover;
+    display: flex;
+    padding: 10px 30px;
+}
+
+img.head-image{
+    height: 80px;
+    
+}
+
