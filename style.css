@@ -51,7 +51,7 @@ button{
 button:hover{
     transform: scale(1.3);
 }
-nav button.button1{
+button.button1{
     background:#ECE025;
     background-size: 20px;
     border: 2px solid #4CAF50;
@@ -59,19 +59,19 @@ nav button.button1{
     border-radius: 30px;
 
 }
-nav button.button1:hover{
+button.button1:hover{
     transform: scale(1.3);
     background-color: #50FE68;
     color: gray;
 }
-nav button.button2{
+button.button2{
     background:#50FE68;
     background-size: 20px;
     border: 2px solid #4CAF50;
     justify-items: center;
     border-radius: 30px;
 }
-nav button.button2:hover{
+button.button2:hover{
     background-color: #ECE025; 
     color: gray;
 }
@@ -161,13 +161,44 @@ img.card{
     margin-top: 20px;
 }
 .contenido4{
-    display: flex;
-    width: 100%;
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    grid-template-columns: repeat(2, max-content);
     background-color: gray;
+    padding: 50px;
+
 }
-.encabezado3{
-    text-align: center;
+.encabezado3 p{
+    font-size: 20px;
+    color: white;
 }
+div.botones1{
+    margin: auto;
+}
+.contenido5{
+    display: grid;
+    grid-template-columns: repeat(3, max-content);
+    justify-content: space-between;
+    padding: 50px 30px;
+
+
+}
+.cuerpo1{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    padding: 20px 30px;
+    color: white;
+}
+.cuerpo1 a{
+    color: white;
+    font-size: 20px;
+}
+
+
+
+
 
 
 
