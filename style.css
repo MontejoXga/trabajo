@@ -181,7 +181,7 @@ div.botones1{
     grid-template-columns: repeat(3, max-content);
     justify-content: space-between;
     padding: 50px 30px;
-
+    gap: 10px;
 
 }
 .cuerpo1{
@@ -194,6 +194,27 @@ div.botones1{
 .cuerpo1 a{
     color: white;
     font-size: 20px;
+}
+.contenido6{
+    display: grid;
+    grid-template-columns: repeat(4, max-content);
+    gap: 20px;
+    justify-content: center;
+    margin: auto;
+    padding: 50px;
+    width: 50%;
+}
+img.card1{
+    height: 50px;
+    width: 50px;
+    border-radius: 150px;
+    border:10px solid #666;
+}
+.master-contenido6{
+    background-color: gray;
+}
+.copy{
+    text-align: center;
 }
 
 
