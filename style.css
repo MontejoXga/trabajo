@@ -135,9 +135,39 @@ div.contexto3{
 }
 div.image{
     margin: 20px ;
+    
 }
-
-
+img.card{
+    width: 160px;
+    margin: auto auto;
+    
+}
+.album{
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 10%;
+}
+.encabezado2{
+    text-align: center;
+    padding-top:50px ;
+    color: white;
+}
+.encabezado2 h2{
+    font-size: 50px;
+}
+.encabezado2 p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.contenido4{
+    display: flex;
+    width: 100%;
+    background-color: gray;
+}
+.encabezado3{
+    text-align: center;
+}
 
 
 
