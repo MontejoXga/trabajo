@@ -162,26 +162,29 @@ img.card{
 }
 .contenido4{
     display: grid;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;
     grid-template-columns: repeat(2, max-content);
     background-color: gray;
-    padding: 50px;
+    padding: 50px ;
+
+
 
 }
 .encabezado3 p{
     font-size: 20px;
     color: white;
+    height: 50%;
 }
 div.botones1{
-    margin: auto;
+    height: 50%;
 }
 .contenido5{
     display: grid;
+    justify-content: center;
     grid-template-columns: repeat(3, max-content);
-    justify-content: space-between;
     padding: 50px 30px;
     gap: 10px;
+    margin: auto;
 
 }
 .cuerpo1{
