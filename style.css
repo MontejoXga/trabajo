@@ -201,7 +201,7 @@ div.botones1{
     gap: 20px;
     justify-content: center;
     margin: auto;
-    padding: 50px;
+    padding: 30px;
     width: 50%;
 }
 img.card1{
@@ -215,6 +215,8 @@ img.card1{
 }
 .copy{
     text-align: center;
+    padding-bottom: 30px;
+    
 }
 
 
