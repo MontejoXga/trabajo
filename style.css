@@ -1,12 +1,14 @@
 *{
     margin: 0;
-    box-sizing: border-box;
     
 }
 a{
     text-decoration: none;
 }
-
+img{
+    width: 100%;
+    height: auto;
+}
 .content{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('imagenes/fondo.jpg');
     background-repeat: no-repeat;
@@ -16,18 +18,40 @@ a{
   
 }
 header{
-    display: flex;
-    padding: 0 30px;
-    align-items: center;
-    justify-content: space-between;
     background-color: #ECE025;
     
 }
 div.div-image{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    margin: 0 20px 0 0;
 }
+
+div.logo{
+    margin: auto;
+    width: 20%;
+    text-align: center;
+}
+div.obtion{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem,1fr));
+    width: 50;
+    text-align: center;
+}
+
+img.head-image{
+    width: 80px;
+}
+div.login{
+    width: 30%;
+    margin: auto;
+      
+}
+nav.derecha{
+    text-align:center;
+    margin: 20px;
+}
+
 nav a.menu {
     font-weight: 600;
     padding-left: 25px;
@@ -46,7 +70,6 @@ button{
     font-weight: bold;
     font-size: 15px;
     transition: .4s;
-    margin-left:15px; 
 }
 button:hover{
     transform: scale(1.3);
@@ -55,12 +78,10 @@ button.button1{
     background:#ECE025;
     background-size: 20px;
     border: 2px solid #4CAF50;
-    justify-items: center;
     border-radius: 30px;
 
 }
 button.button1:hover{
-    transform: scale(1.3);
     background-color: #50FE68;
     color: gray;
 }
@@ -68,7 +89,6 @@ button.button2{
     background:#50FE68;
     background-size: 20px;
     border: 2px solid #4CAF50;
-    justify-items: center;
     border-radius: 30px;
 }
 button.button2:hover{
@@ -76,18 +96,14 @@ button.button2:hover{
     color: gray;
 }
 
-img.head-image{
-    height: 80px;
-}
+
 iframe{
     display: grid;
     width: 100%;
-    height: 557px;
+    height: 50rem;
+    
 }
-div.encabezado{
-    display: flex;
-    margin-left: 20px;
-}
+
 div.encabezado h2{
     font-size: 30px;
     margin: 5% 0 ;
@@ -107,6 +123,7 @@ div.contexto{
 div.contenido{
     margin: 20px;
     font-size: 17px;
+    text-align: justify;
 }
 button.info{
     margin-top: 30px;
@@ -116,37 +133,52 @@ button.info{
     color: white;
 }
 div.contenido2{
-    display: flex;
+    display: grid;
+    gap: 15px;
     margin-top: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
 }
+.fist{
+    overflow: hidden;
+    text-align: center;
+}
+
 div.contexto2{  
-    margin: 10% 0 0 5%;
+    margin: auto;
     font-size: 17px;
+    text-align: justify;
 }
 div.contenido3{
-    display: flex;
-    margin-top: 1%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem,1fr));
+    padding: 5% 2%;
+    gap: 15px;
     background-color: gray;
+    text-align: justify;
 }
 div.contexto3{  
-    margin: 10% 5%;
     color: white;
     font-size: 17px;
+    margin: auto;
 }
 div.image{
-    margin: 20px ;
+    margin: auto ;
     
+}
+
+div.album{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    gap: 10px;
+    padding: 10%;
+}
+div.alb{
+    display: grid;
+    justify-items: center;
+    justify-content: center;
 }
 img.card{
-    width: 160px;
-    margin: auto auto;
-    
-}
-.album{
-    display: grid;
-    gap: 40px;
-    grid-template-columns: repeat(4, 1fr);
-    padding: 10%;
+    height: 100%;
 }
 .encabezado2{
     text-align: center;
@@ -163,36 +195,44 @@ img.card{
 .contenido4{
     display: grid;
     justify-content: center;
-    grid-template-columns: repeat(2, max-content);
+    justify-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(15rem,1fr));
     background-color: gray;
     padding: 50px ;
-
-
-
+    gap: 10px;
+}
+div.encabezado3{
+    margin: auto;
 }
 .encabezado3 p{
     font-size: 20px;
     color: white;
     height: 50%;
+    text-align: center;
 }
 div.botones1{
-    height: 50%;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(10rem,1fr));
 }
 .contenido5{
     display: grid;
     justify-content: center;
-    grid-template-columns: repeat(3, max-content);
-    padding: 50px 30px;
-    gap: 10px;
-    margin: auto;
+    justify-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    padding: 5% 10%;
+    margin: auto ;
 
 }
 .cuerpo1{
-    display: flex;
+    display: grid;
     align-items: center;
-    gap: 100px;
-    padding: 20px 30px;
+    gap: 50px;
     color: white;
+    margin: auto ;
+}
+div.add{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
 .cuerpo1 a{
     color: white;
